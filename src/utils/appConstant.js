@@ -1,1 +1,1 @@
-export const serverUrl = "https://hiring-mineclone.vercel.app"
+export const serverUrl = ""

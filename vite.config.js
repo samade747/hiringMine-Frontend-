@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://hiring-mineclone.vercel.app',
+        target: '',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, '/api'),
